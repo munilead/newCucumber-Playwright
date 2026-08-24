@@ -1,3 +1,4 @@
+
 import { test, FrameLocator } from "@playwright/test";
 import "../step-definitions/BaseTest";
 import { LoginPage } from "../pages/LoginPage";
@@ -9,8 +10,8 @@ import AssertUtil  from "../utils/AssertUtil";
 let loginPage:LoginPage=new LoginPage();
 let pimPage:PIMPage=new PIMPage();
 
-test("verify employee can be added successfully",async ()=>{
-    //login
+test("verify employee can be deleted successfully",async ()=>{
+    console.log("delete emp");
    await loginPage.login();
 
 
