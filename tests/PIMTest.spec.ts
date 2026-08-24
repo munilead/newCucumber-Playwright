@@ -11,7 +11,7 @@ let loginPage:LoginPage=new LoginPage();
 let pimPage:PIMPage=new PIMPage();
 
 test("verify employee can be deleted successfully",async ()=>{
-    //login
+    console.log("delete emp");
    await loginPage.login();
 
 
